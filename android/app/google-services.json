@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1079546612358",
+    "firebase_url": "https://mod3-app.firebaseio.com",
+    "project_id": "mod3-app",
+    "storage_bucket": "mod3-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079546612358:android:5f89f717d980bf31f3df07",
+        "android_client_info": {
+          "package_name": "com.inventorg.mod3_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079546612358-kt6gnlc7j16kk6a30euas7tmgq6lbh1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh25atZeOSMa1wZ_r9PU0HYk1X9wfck7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079546612358-kt6gnlc7j16kk6a30euas7tmgq6lbh1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
