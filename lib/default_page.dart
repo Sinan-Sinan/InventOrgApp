@@ -22,8 +22,9 @@ class _DefaultPageState extends State<DefaultPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("InventOrg"),
-        //actions: <Widget>[LogoutButton()],
+          title: Center(
+            child: Text('InventOrg'),
+          )
       ),
       body: _children[_currentIndex], // new
       bottomNavigationBar: BottomNavigationBar(

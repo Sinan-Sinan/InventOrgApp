@@ -17,14 +17,19 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("InventOrg"),
+            title: Center(
+              child: Text('InventOrg'),
+            )
         ),
         body: Container(
             padding: EdgeInsets.all(20.0),
             child: Form(
                 key: _formKey,
-                child: Column(children: <Widget>[
-                  SizedBox(height: 20.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+
                   Text(
                     'Login Information',
                     style: TextStyle(fontSize: 20),
@@ -60,7 +65,8 @@ class _LoginPageState extends State<LoginPage> {
                         }
                       }
                     },
-                  )
+                  ),
+                    SizedBox(height: 100,),
                 ]))));
   }
 
