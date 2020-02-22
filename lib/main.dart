@@ -1,11 +1,29 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'default_page.dart';
-import 'auth.dart';
-import 'login_page.dart';
+import 'services/auth.dart';
+import 'package:mod3_app/pages/root_page.dart';
 
-void main() => runApp(
+void main() {
+  runApp(new MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'InventOrg',
+        theme: ThemeData(
+            primarySwatch: Colors.orange,
+            primaryTextTheme: TextTheme(
+                headline6: TextStyle(
+                    color: Colors.white
+                )
+            )),
+        home: new RootPage(auth: new Auth()));
+  }
+}
+
+/*void main() => runApp(
   ChangeNotifierProvider<AuthService>(
     child: MyApp(),
     builder: (BuildContext context) {
@@ -59,4 +77,4 @@ class LoadingCircle extends StatelessWidget {
       ),
     );
   }
-}
+}*/
