@@ -108,7 +108,8 @@ class _EditPageState extends State<EditPage>{
                               Card(
                                 child: ListTile(
                                   title: RaisedButton(
-                                    child: Text("Submit"),
+                                    child: Text("Submit", style: TextStyle(color: Colors.white),),
+                                    color: Colors.orange,
                                     onPressed: () async {
                                       // save the fields..
                                       final form = _formKey.currentState;

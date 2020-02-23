@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage>{
         child: Column(
           children: <Widget>[
             Text(
-              'Home' + widget.userId.toString(),
+              'Home',
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20.0),

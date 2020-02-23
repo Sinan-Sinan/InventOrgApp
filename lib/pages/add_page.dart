@@ -102,7 +102,8 @@ class _AddPageState extends State<AddPage>{
                             Card(
                               child: ListTile(
                                 title: RaisedButton(
-                                  child: Text("Add"),
+                                  child: Text("Add", style: TextStyle(color: Colors.white),),
+                                  color: Colors.orange,
                                   onPressed: () async {
                                     // save the fields..
                                     final form = _formKey.currentState;
