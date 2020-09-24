@@ -1,4 +1,4 @@
-# mod3_app
+# InventOrgApp
 
 A new Flutter application.
 
